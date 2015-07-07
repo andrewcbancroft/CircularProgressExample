@@ -13,6 +13,7 @@
 		C383B9351B4C422100889417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C383B9341B4C422100889417 /* Images.xcassets */; };
 		C383B9381B4C422100889417 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383B9361B4C422100889417 /* LaunchScreen.xib */; };
 		C383B9441B4C422100889417 /* CircularProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383B9431B4C422100889417 /* CircularProgressTests.swift */; };
+		C383B94E1B4C439300889417 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383B94D1B4C439300889417 /* KDCircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C383B93D1B4C422100889417 /* CircularProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C383B9421B4C422100889417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C383B9431B4C422100889417 /* CircularProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressTests.swift; sourceTree = "<group>"; };
+		C383B94D1B4C439300889417 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C383B92D1B4C422100889417 /* AppDelegate.swift */,
 				C383B92F1B4C422100889417 /* ViewController.swift */,
+				C383B94D1B4C439300889417 /* KDCircularProgress.swift */,
 				C383B9311B4C422100889417 /* Main.storyboard */,
 				C383B9341B4C422100889417 /* Images.xcassets */,
 				C383B9361B4C422100889417 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C383B94E1B4C439300889417 /* KDCircularProgress.swift in Sources */,
 				C383B9301B4C422100889417 /* ViewController.swift in Sources */,
 				C383B92E1B4C422100889417 /* AppDelegate.swift in Sources */,
 			);
