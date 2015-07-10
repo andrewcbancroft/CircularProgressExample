@@ -79,12 +79,12 @@
 		C383B92A1B4C422100889417 /* CircularProgress */ = {
 			isa = PBXGroup;
 			children = (
-				C383B92D1B4C422100889417 /* AppDelegate.swift */,
 				C383B92F1B4C422100889417 /* ViewController.swift */,
 				C383B94D1B4C439300889417 /* KDCircularProgress.swift */,
 				C383B9311B4C422100889417 /* Main.storyboard */,
 				C383B9341B4C422100889417 /* Images.xcassets */,
 				C383B9361B4C422100889417 /* LaunchScreen.xib */,
+				C383B92D1B4C422100889417 /* AppDelegate.swift */,
 				C383B92B1B4C422100889417 /* Supporting Files */,
 			);
 			path = CircularProgress;
@@ -415,6 +415,7 @@
 				C383B9491B4C422100889417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C383B94A1B4C422100889417 /* Build configuration list for PBXNativeTarget "CircularProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				C383B94C1B4C422100889417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
