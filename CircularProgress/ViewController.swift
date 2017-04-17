@@ -27,22 +27,21 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func increaseProgressButtonTapped(sender: UIButton) {
+    @IBAction func increaseProgressButtonTapped(_ sender: UIButton) {
         if currentCount != maxCount {
             currentCount += 1
             let newAngleValue = newAngle()
-            
-            circularProgressView.animateToAngle(newAngleValue, duration: 0.5, completion: nil)
+            circularProgressView.animate(toAngle: newAngleValue, duration: 0.5, completion: nil)
         }
     }
 	
-	func newAngle() -> Int {
-		return Int(360 * (currentCount / maxCount))
+	func newAngle() -> Double {
+		return 360 * (currentCount / maxCount)
 	}
 	
-    @IBAction func resetButtonTapped(sender: UIButton) {
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
         currentCount = 0
-        circularProgressView.animateFromAngle(circularProgressView.angle, toAngle: 0, duration: 0.5, completion: nil)
+        circularProgressView.animate(fromAngle: circularProgressView.angle, toAngle: 0, duration: 0.5, completion: nil)
     }
 }
 
